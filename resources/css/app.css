@@ -52,6 +52,12 @@ h1{
     margin-bottom: 16px;
 }
 
+h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
 #username{
     border-radius: 8px;
     transition: 0.4s;

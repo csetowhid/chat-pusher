@@ -11,10 +11,10 @@ const messages_el = document.getElementById("messages");
 
         let has_errors = false;
 
-        if(username_input.value == ''){
-            alert("Please enter a username");
-            has_errors = true;
-        }
+        // if(username_input.value == ''){
+        //     alert("Please enter a username");
+        //     has_errors = true;
+        // }
 
         if(message_input.value == ''){
             alert("Please enter a Message");

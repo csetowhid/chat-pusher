@@ -2068,12 +2068,10 @@ var message_input = document.getElementById("message_input");
 var message_form = document.getElementById("message_form");
 message_form.addEventListener('submit', function (e) {
   e.preventDefault();
-  var has_errors = false;
-
-  if (username_input.value == '') {
-    alert("Please enter a username");
-    has_errors = true;
-  }
+  var has_errors = false; // if(username_input.value == ''){
+  //     alert("Please enter a username");
+  //     has_errors = true;
+  // }
 
   if (message_input.value == '') {
     alert("Please enter a Message");

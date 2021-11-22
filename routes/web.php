@@ -24,3 +24,8 @@ Route::post('/send-message', function (Request $request){
     event(new Message($request->input('username'), $request->input('message')));
     return ["success" => true];
 });
+
+Route::post('/chat', [ChatController::class, 'chat'])->name('chat');
+
+// Route::post('/send-message', [ChatController::class, 'send_message']);
+
