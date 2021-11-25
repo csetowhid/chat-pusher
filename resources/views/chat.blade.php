@@ -20,7 +20,7 @@
         <div id="messages"></div>
         <form id="message_form">
           <input type="hidden" name="username" id="username" value="{{$username}}" />
-            <input type="text" name="message" id="message_input" placeholder="Message..." />
+            <input type="text" name="message" id="message_input" autocomplete="off" placeholder="Message..." />
             <button type="submit" id="message_send">Send</button>
         </form>
     </div>

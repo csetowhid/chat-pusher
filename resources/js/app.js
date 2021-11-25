@@ -1,13 +1,14 @@
 require('./bootstrap');
 
 
-const messages_el = document.getElementById("messages");
+        const messages_el = document.getElementById("messages");
         const username_input = document.getElementById("username");
         const message_input = document.getElementById("message_input");
         const message_form = document.getElementById("message_form");
 
         message_form.addEventListener('submit', function (e) {
         e.preventDefault();
+        
 
         let has_errors = false;
 
